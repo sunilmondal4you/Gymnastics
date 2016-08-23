@@ -10,6 +10,7 @@ app .directive('headerDirective',function() {
         replace:'true'
     };
 })
+
 app .directive('footerDirective',function() {
     return{
         restrict:'AEC',
@@ -17,3 +18,15 @@ app .directive('footerDirective',function() {
         replace:'true'
     };
 })
+
+
+
+app.directive("gallerydata",function(){
+    return{
+        restrict:'AEC',
+        templateUrl:'veiws/gallerydata.html',
+        replace:'true'
+    }
+
+});
+

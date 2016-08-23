@@ -15,6 +15,6 @@ app.get('/a',function(req,res) {
     res.send("Hello ritesh!");
 });
 
-app.listen(3001,function () {
-    console.log("Server 3001 is started");
+app.listen(3002,function () {
+    console.log("Server 3002 is started");
 });

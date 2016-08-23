@@ -1,0 +1,29 @@
+<div class="col-md-4 " ng-repeat="item in trainers">
+    <div class="row trnrpofile">
+        <img ng-src="{{item.image}}" class="col-md-5 col-xs-12 trnrimg">
+        <div class="col-md-7 col-xs-12 trnrdata">
+            <h3 style="margin-top: 0px">{{item.name}}</h3>
+            <p>Ot vero eos et accusam justo justo duo dolores ea rebum.</p>
+            <p>Sr. Trainer</p>
+                    <span class="fa-stack fa-lg">
+                        <a href="#">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                        <a href="#">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                        <a href="#">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                        </a>
+                    </span>
+        </div>
+        <iframe class="col-md-12 col-xs-12 trnrvedio" width="100%" height="200" ng-src="{{getIframeSrc(item.video)}}" frameborder="0" allowfullscreen></iframe>                </iframe>
+    </div>
+</div>
